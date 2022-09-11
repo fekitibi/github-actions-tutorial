@@ -1,7 +1,10 @@
 name: Actions Workflow
 
 on:
-  #push:
+  push:
+    branches:
+      - master
+      - 'festure/**'
   #schedule:
   #  - cron: "* * * * MON"
   repository_dispatch:
